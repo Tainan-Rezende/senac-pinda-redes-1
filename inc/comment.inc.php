@@ -1,7 +1,7 @@
 <?php
 
     if(!isset($_GET['p'])=='send'){
-        header("location: http://localhost/website-teste/");
+        header("location: index.php");
     } else {
         $cName = $_POST['cname'];
         $cMail = $_POST['cmail'];
@@ -10,10 +10,10 @@
 
         $sqlCom = "INSERT INTO tb_comment (c_name, c_email, c_img, c_comment) VALUES ('$cName','$cMail','$cImage','$cMsg')";
 
-        mysqli_query($conn, $sqlCom) or die("<script>window.location.replace('http://localhost/website-teste/?error=1')</script>");
+        mysqli_query($conn, $sqlCom) or die("<script>window.location.replace('index.php?error=1')</script>");
 
         mysqli_close($conn);
 
-        echo "<script>window.location.replace('http://localhost/website-teste/?msg=1')</script>";
+        echo "<script>window.location.replace('index.php?msg=1')</script>";
     }
-    // "'.$cName.'", "'.$cMail.'","'.$cImage.'", "'.$cMsg.'"
+
