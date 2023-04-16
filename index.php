@@ -43,8 +43,8 @@
 
     <footer>
         &copy; <?=date('Y');?> 
-        <a href="https://www.sp.senac.br/senac-pindamonhangaba">Senac Pindamonhangaba</a>. 
-        Created by <a href="https://www.linkedin.com/in/tainan-rezende/">Tainan Rezende</a>. 
+        <a href="https://www.sp.senac.br/senac-pindamonhangaba" target="_blank" rel="noopener noreferrer">Senac Pindamonhangaba</a>. 
+        Created by <a href="https://www.linkedin.com/in/tainan-rezende/" target="_blank" rel="noopener noreferrer">Tainan Rezende</a>. 
         All rights reserved.
     </footer>
 
