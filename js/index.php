@@ -1,3 +1,3 @@
 <?php
-    header("location: http://localhost/website-teste/");
+    header("location: index.php");
     
