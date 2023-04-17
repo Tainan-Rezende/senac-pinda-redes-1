@@ -58,7 +58,7 @@
                     <fieldset>
                         <legend>Imagem</legend>
                         <label for="imgCom">
-                            <input type="text" name="cimage" class="imgPlace" placeholder="Coloque a url de uma imagem da internet">
+                            <input type="url" name="cimage" class="imgPlace" placeholder="Coloque a url de uma imagem da internet">
                         </label>
                     </fieldset>
                     <fieldset>
